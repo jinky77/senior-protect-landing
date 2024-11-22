@@ -14,7 +14,7 @@ const resolvedImageWithDomain = new URL("/opengraph.jpg", Astro.site).toString()
 
 const { title } = Astro.props;
 
-const makeTitle = title ? title + " | " + "Senior Protect" : "Senior Protect - Protégez vos aînés";
+const makeTitle = title ? title + " | " + "Senior Protect" : "Senior Protect - Veillez sur vos aînés";
 ---
 
 <!doctype html>
@@ -38,7 +38,7 @@ const makeTitle = title ? title + " | " + "Senior Protect" : "Senior Protect - P
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Senior Protect Screenshot",
+          alt: "Accueil Senior Protect",
         },
       }}
     />
